@@ -24,17 +24,12 @@ app.use(methodOverride('X-HTTP-Method-Override'));
 app.use(express.static(__dirname + '/public')); 
 
 // routes ==================================================
-//require('./server/routes')(app); // configure our routes
+require('./app/routes')(app); // configure our routes
 
 server.listen(port, function () {
     console.log('Server listening at port %d', port);
 });
 //io.listen(app);
-
-app.use('/', function(request, respond) {
-
-	respond.text = "hi" 
-})
 
           
 exports = module.exports = app;                         
