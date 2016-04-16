@@ -1,0 +1,29 @@
+{
+  "name": "hacksyon",
+  "version": "1.0.0",
+  "description": "Hacksyon 2016",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenblizzard/hacksyon.git"
+  },
+  "keywords": [
+    "hacksyon"
+  ],
+  "author": "kenneth bolico, john eris villanueva, regine grace in",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenblizzard/hacksyon/issues"
+  },
+  "homepage": "https://github.com/kenblizzard/hacksyon#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.1.16",
+    "serve-static": "^1.10.2"
+  }
+}

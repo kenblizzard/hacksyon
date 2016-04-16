@@ -1,0 +1,13 @@
+db/
+log/
+node_modules
+*.log
+*.lock
+Seansoft.Scrumonline.v12.suo
+*.log.*
+*.bat
+bin
+obj
+/lib/_buildId.txt
+.ntvs_analysis.dat
+data/_buildId.txt
