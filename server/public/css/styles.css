@@ -1,0 +1,66 @@
+.main {
+	margin-top: 50px;
+}
+
+.chart-container canvas{
+	max-width: 300px;
+	max-height: 300px;
+}
+
+* {
+	font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bitter', serif;
+}
+
+.new-row {
+	margin-top: 40px;
+}
+
+.binay {
+	background-color: #FF5722
+}
+
+.miriam {
+	background-color: #C62828;
+}
+
+.duterte {
+	background-color: #3F51B5
+}
+
+.poe {
+	background-color: #2196F3;
+}
+
+.roxas {
+	background-color: #FBC02D;
+}
+
+.a1 {
+	color: red;
+	font-weight: 800;
+	font-size: 200%;
+}
+
+.img-cand-issue {
+	max-width: 150px
+}
+
+.main {
+	background: url(../img/malacanang.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	padding: 0;
+
+
+}
+
+.navbar {
+	color:#E53935 !important;
+}
