@@ -139,7 +139,7 @@ $.get('/result/issues', {}, function(data, status) {
 					continue
 				}
 				$("#tableIssues").append("<tr ><td class='text-center a"+(i+1)+"'>"+ (i + 1)+"</td><td>"
-					+ api[parseInt(data[i]._id)].issue +"</td> <td>"+ data[i].rating_sum +"</td></tr>");
+					+ api[parseInt(data[i]._id)-1].issue +"</td> <td>"+ data[i].rating_sum +"</td></tr>");
 			}
 		}
 	});
@@ -168,7 +168,7 @@ $.get('/result/issues/candidates', {}, function(data, status) {
 				if(!api[parseInt(data[i]._id.id)]) {
 					continue;
 				}
-				$("#tableIssuesCandidates").append("<tr ><td>"+ (i+1)+ "</td><td>"+ api[parseInt(data[i]._id.id)].issue +"</td>" +
+				$("#tableIssuesCandidates").append("<tr ><td>"+ (i+1)+ "</td><td>"+ api[parseInt(data[i]._id.id)-1].issue +"</td>" +
 					"<td class='text-center' >"+
 					"<img class='col-md-3 col-sm-12 col-xs-12 img-cand-issue' src='img/ic_"+(data[i]._id.candidate_id)+".png'/> "
 					 + "<span class='col-md-9 col-sm-12 col-xs-12'>" + data[i]._id.quote + "</span></td>" +

@@ -52,8 +52,8 @@ getIssuesByRating: function(req, res, callback) {
 			{
 				$group: {
 					_id: "$issue_results.id",
-					
-						rating_sum : { $sum: "$issue_results.rating"}
+					rating_sum : { $avg: "$issue_results.rating"},
+				//	rating_sum1 : { $avg : "$rating_sum1"}
 					
 				}
 			},
@@ -96,7 +96,7 @@ getCandidatesByIssues: function(req, res, callback) {
 						candidate_id : "$issue_results.candidate_id",
 						quote : "$issue_results.quote"
 						},					
-						rating_sum : { $sum: "$issue_results.rating"}
+						rating_sum : { $sum: 1}
 						
 					
 				}
