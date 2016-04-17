@@ -11,3 +11,4 @@ obj
 /lib/_buildId.txt
 .ntvs_analysis.dat
 data/_buildId.txt
+*.DS_Store
